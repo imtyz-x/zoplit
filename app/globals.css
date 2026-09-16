@@ -80,29 +80,16 @@
   }
 }
 
-@keyframes zopi-shake {
-  0%,
-  100% {
-    transform: scale(1.04) rotate(0deg);
-  }
-  25% {
-    transform: scale(1.04) rotate(-4deg) translateX(-4px);
-  }
-  75% {
-    transform: scale(1.04) rotate(4deg) translateX(4px);
-  }
-}
-
 .zopi-mascot {
   animation: zopi-rock 4s ease-in-out infinite;
   cursor: pointer;
   filter: drop-shadow(0 24px 28px rgba(91, 33, 230, 0.28));
-  transition: transform 300ms ease, filter 300ms ease;
+  transition: transform 500ms ease, filter 500ms ease;
 }
 
 .zopi-mascot:hover {
-  animation: zopi-shake 450ms ease-in-out infinite;
-  filter: drop-shadow(0 30px 36px rgba(167, 139, 250, 0.42));
+  filter: drop-shadow(0 30px 36px rgba(167, 139, 250, 0.55));
+  transform: scale(1.05) rotate(-2deg);
 }
 
 @keyframes hero-gradient-shift {
