@@ -48,7 +48,7 @@ export function Hero() {
             </Button>
           </div>
           <div className="mt-8 flex flex-wrap gap-x-5 gap-y-2 text-sm text-white/55">
-            {['Verified creators', 'Fixed quotes', '48h delivery'].map((item) => (
+            {['Verified creators', 'Fixed quotes', 'Fast delivery'].map((item) => (
               <span key={item} className="inline-flex items-center gap-1.5">
                 <Check size={14} className="text-[#a78bfa]" />
                 {item}
