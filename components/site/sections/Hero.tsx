@@ -7,18 +7,14 @@ import { Button } from '@/components/ui/button';
 
 export function Hero() {
   return (
-    <section className="relative isolate min-h-[calc(100vh-5rem)] overflow-hidden bg-[#08070b] px-4 pb-16 pt-28 sm:px-8 lg:px-12 lg:pb-24 lg:pt-32">
+    <section className="hero-section relative isolate min-h-[calc(100vh-5rem)] overflow-hidden bg-[#0a0a12] px-4 pb-16 pt-28 sm:px-8 lg:px-12 lg:pb-24 lg:pt-32">
       <div
         aria-hidden
-        className="pointer-events-none absolute inset-0 opacity-80"
-        style={{
-          background:
-            'radial-gradient(circle at 72% 42%, rgba(91,33,230,0.22), transparent 28%), radial-gradient(circle at 12% 15%, rgba(34,211,238,0.08), transparent 24%), linear-gradient(115deg, #08070b 0%, #0d0b12 52%, #171026 100%)',
-        }}
+        className="hero-background pointer-events-none absolute inset-0 opacity-80"
       />
       <div
         aria-hidden
-        className="pointer-events-none absolute inset-0 opacity-20"
+        className="hero-grid pointer-events-none absolute inset-0 opacity-20"
         style={{
           backgroundImage:
             'linear-gradient(rgba(255,255,255,0.07) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.07) 1px, transparent 1px)',
@@ -27,7 +23,7 @@ export function Hero() {
         }}
       />
 
-      <div className="relative mx-auto grid w-full max-w-7xl items-center gap-14 lg:grid-cols-[0.9fr_1.1fr] lg:gap-10">
+      <div className="relative z-10 mx-auto grid w-full max-w-7xl items-center gap-14 lg:grid-cols-[0.9fr_1.1fr] lg:gap-10">
         <div className="max-w-xl">
           <div className="mb-7 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/[0.06] px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.18em] text-white/70">
             <Sparkles size={14} className="text-[#a78bfa]" />
