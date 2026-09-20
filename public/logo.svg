@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" role="img" aria-hidden="true">
+  <g fill="#5B21E6" transform="translate(32 32) rotate(40) scale(1.22)">
+    <path transform="translate(0 -8.6)" d="M-22 0 L6.272 -6.99 A7.2 7.2 0 1 0 6.272 6.99 Z"/>
+    <path transform="rotate(180) translate(0 -8.6)" d="M-22 0 L6.272 -6.99 A7.2 7.2 0 1 0 6.272 6.99 Z"/>
+  </g>
+</svg>
