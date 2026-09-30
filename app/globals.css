@@ -92,28 +92,6 @@
   transform: scale(1.05) rotate(-2deg);
 }
 
-@keyframes hero-gradient-shift {
-  0%,
-  100% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-}
-
-@keyframes hero-glow-breathe {
-  0%,
-  100% {
-    opacity: 0.62;
-    transform: scale(0.96);
-  }
-  50% {
-    opacity: 1;
-    transform: scale(1.06);
-  }
-}
-
 @keyframes hero-particles-rise {
   from {
     transform: translateY(20px);
@@ -124,17 +102,10 @@
 }
 
 .hero-background {
-  background: radial-gradient(circle at 78% 42%, rgba(124, 58, 237, 0.2), transparent 28%), radial-gradient(circle at 20% 72%, rgba(59, 130, 246, 0.1), transparent 24%), linear-gradient(115deg, #080910 0%, #100d1d 48%, #20113a 100%);
-  background-size: 140% 140%, 130% 130%, 180% 180%;
-  animation: hero-gradient-shift 18s ease-in-out infinite;
-}
-
-.hero-background::before {
-  content: '';
-  position: absolute;
-  inset: -12%;
-  background: radial-gradient(circle at 72% 42%, rgba(124, 58, 237, 0.34), transparent 34%);
-  animation: hero-glow-breathe 6s ease-in-out infinite;
+  background-image: linear-gradient(rgba(10, 10, 18, 0.42), rgba(10, 10, 18, 0.58)), url('/hero-background.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .hero-section::after {
