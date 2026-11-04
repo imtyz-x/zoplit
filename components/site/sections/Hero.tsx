@@ -30,8 +30,8 @@ export function Hero() {
             Your creative team, on demand
           </div>
           <h1 className="max-w-xl text-5xl font-bold leading-[0.98] tracking-tight text-white sm:text-6xl lg:text-7xl">
-            Great work,
-            <span className="block text-[#a78bfa]">without the chase.</span>
+            GREAT CREATIVE WORK.
+            <span className="block text-[#a78bfa]">WITHOUT THE RUNAROUND.</span>
           </h1>
           <p className="mt-7 max-w-lg text-base leading-7 text-white/65 sm:text-lg">
             Tell us what you need. Zoplit matches you with the right creator, manages the details, and gets the final work over the line.
