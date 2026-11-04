@@ -30,11 +30,11 @@ export function Hero() {
             Your creative team, on demand
           </div>
           <h1 className="max-w-xl text-5xl font-bold leading-[0.98] tracking-tight text-white sm:text-6xl lg:text-7xl">
-            GREAT CREATIVE WORK.
-            <span className="block text-[#a78bfa]">WITHOUT THE RUNAROUND.</span>
+            Great creative work.
+            <span className="block text-[#a78bfa]">Without the runaround.</span>
           </h1>
           <p className="mt-7 max-w-lg text-base leading-7 text-white/65 sm:text-lg">
-            Tell us what you need. Zoplit matches you with the right creator, manages the details, and gets the final work over the line.
+            From design and video editing to photography and content creation, ZOPLIT connects you with creative talent and manages the process from brief to delivery.
           </p>
           <div className="mt-9 flex flex-col items-start gap-3 sm:flex-row sm:items-center">
             <Button asChild size="lg" className="h-12 rounded-md bg-[#5B21E6] px-7 text-base text-white hover:bg-[#5B21E6]/90">
@@ -48,7 +48,7 @@ export function Hero() {
             </Button>
           </div>
           <div className="mt-8 flex flex-wrap gap-x-5 gap-y-2 text-sm text-white/55">
-            {['Verified creators', 'Fixed quotes', 'Fast delivery'].map((item) => (
+            {['Creative Talent', 'Clear Quotes', 'Managed Delivery'].map((item) => (
               <span key={item} className="inline-flex items-center gap-1.5">
                 <Check size={14} className="text-[#a78bfa]" />
                 {item}
